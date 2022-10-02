@@ -1,0 +1,104 @@
+.modal {
+    position: fixed;
+    background: white;
+    width: 800px;
+    height: auto;
+    border-radius: 15px;
+    padding: 20px;
+    z-index: 100;
+    margin-top: -230px;
+}
+
+.modalHeader {
+    display: block;
+    font-size: 25px;
+    border-bottom: 2px solid black;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.modalBody {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+
+.modalBody img {
+    width: 400px;
+    height: 280px;
+}
+
+.modalFooter {
+    margin-top: 20px;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.productImage {
+    position: relative;
+    margin-right: 30px;
+}
+
+.productDes {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: center;
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+@media (max-width:800px) {
+    .modal {
+        position: fixed;
+        background: white;
+        width: 300px;
+        height: auto;
+        border-radius: 15px;
+        padding: 20px;
+        z-index: 100;
+        margin-top: -150px;
+    }
+
+    .modalHeader{
+        margin-bottom: 5px;
+    }
+
+    .modalBody {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0;
+        border-bottom: 2px solid black;
+    }
+
+    .modalBody img {
+        width: 200px;
+        height: 150px;
+    }
+
+    .modalFooter{
+        margin-top: 5px;
+    }
+
+    .productImage {
+        position: relative;
+        margin-right: 0;
+    }
+}

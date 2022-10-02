@@ -1,0 +1,193 @@
+[
+    {
+        "id": "1",
+        "category": "race",
+        "name": "product-01",
+        "price": 100,
+        "image": "/images/image-01.jfif"
+    },
+
+    {
+        "id": "2",
+        "category": "personal",
+        "name": "product-02",
+        "price": 100,
+        "image": "/images/image-02.jfif"
+    },
+
+    {
+        "id": "3",
+        "category": "personal",
+        "name": "product-03",
+        "price": 100,
+        "image": "/images/image-03.jpg"
+    },
+
+    {
+        "id": "4",
+        "category": "race",
+        "name": "product-04",
+        "price": 100,
+        "image": "/images/image-04.jpg"
+    },
+
+    {
+        "id": "5",
+        "category": "race",
+        "name": "product-05",
+        "price": 100,
+        "image": "/images/image-05.jfif"
+    },
+
+    {
+        "id": "6",
+        "category": "race",
+        "name": "product-06",
+        "price": 100,
+        "image": "/images/image-06.jfif"
+    },
+
+    {
+        "id": "7",
+        "category": "race",
+        "name": "product-07",
+        "price": 100,
+        "image": "/images/image-07.png"
+    },
+
+    {
+        "id": "8",
+        "category": "race",
+        "name": "product-08",
+        "price": 100,
+        "image": "/images/image-08.jfif"
+    },
+
+    {
+        "id": "9",
+        "category": "race",
+        "name": "product-09",
+        "price": 100,
+        "image": "/images/image-09.jfif"
+    },
+
+    {
+        "id": "10",
+        "category": "personal",
+        "name": "product-10",
+        "price": 100,
+        "image": "/images/image-10.jfif"
+    },
+
+    {
+        "id": "11",
+        "category": "personal",
+        "name": "product-11",
+        "price": 100,
+        "image": "/images/image-11.jpg"
+    },
+
+    {
+        "id": "12",
+        "category": "race",
+        "name": "product-12",
+        "price": 100,
+        "image": "/images/image-12.jfif"
+    },
+
+    {
+        "id": "13",
+        "category": "race",
+        "name": "product-13",
+        "price": 100,
+        "image": "/images/image-13.jpg"
+    },
+
+    {
+        "id": "14",
+        "category": "race",
+        "name": "product-14",
+        "price": 100,
+        "image": "/images/image-14.jpg"
+    },
+
+    {
+        "id": "15",
+        "category": "race",
+        "name": "product-15",
+        "price": 100,
+        "image": "/images/image-15.jfif"
+    },
+
+    {
+        "id": "16",
+        "category": "race",
+        "name": "product-16",
+        "price": 100,
+        "image": "/images/image-16.jfif"
+    },
+
+    {
+        "id": "17",
+        "category": "race",
+        "name": "product-17",
+        "price": 100,
+        "image": "/images/image-17.jfif"
+    },
+
+    {
+        "id": "18",
+        "category": "personal",
+        "name": "product-18",
+        "price": 100,
+        "image": "/images/image-18.jfif"
+    },
+
+    {
+        "id": "19",
+        "category": "personal",
+        "name": "product-19",
+        "price": 100,
+        "image": "/images/image-19.jfif"
+    },
+
+    {
+        "id": "20",
+        "category": "race",
+        "name": "product-20",
+        "price": 100,
+        "image": "/images/image-20.jpg"
+    },
+
+    {
+        "id": "21",
+        "category": "race",
+        "name": "product-21",
+        "price": 100,
+        "image": "/images/image-21.jpg"
+    },
+
+    {
+        "id": "22",
+        "category": "race",
+        "name": "product-22",
+        "price": 100,
+        "image": "/images/image-22.jpg"
+    },
+
+    {
+        "id": "23",
+        "category": "race",
+        "name": "product-23",
+        "price": 100,
+        "image": "/images/image-23.jfif"
+    },
+
+    {
+        "id": "24",
+        "category": "race",
+        "name": "product-24",
+        "price": 100,
+        "image": "/images/image-24.jfif"
+    }
+]

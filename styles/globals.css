@@ -1,0 +1,327 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+html,
+Body {
+  Padding: 0;
+  Margin: 0;
+}
+
+/* header */
+.leftIcon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.rightIcon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* Media Queries */
+@media (max-width: 450px) {
+
+  .rightIcon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  @media (max-width: 415px) {
+    .rightIcon {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-left: -120px;
+    }
+  }
+}
+
+/* Product List Page */
+
+.productHome {
+  display: flex;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.productFilter {
+  background-color: #343a40;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 18%;
+  height: 690px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.productContainer {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: white;
+}
+
+/* Media Queries */
+@media (max-width: 650px) {
+
+  .productHome {
+    display: block;
+  }
+
+  .productFilter {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    height: auto;
+  }
+
+  .productContainer {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.pagination button {
+  width: 40px;
+  height: 40px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: transparent;
+  color: gray;
+  border-color: black;
+}
+
+/* CartItem List Page */
+.cartHome {
+  display: flex;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.cartContainer {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: "white";
+}
+
+.cartAmount {
+  background-color: #343a40;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 18%;
+  height: 580px;
+  margin-left: 5px;
+  margin-top: 45px;
+  align-items: center;
+  justify-items: center;
+}
+
+.cartAmount>span {
+  padding-bottom: 20px;
+}
+
+.title {
+  font-size: 30px;
+}
+
+/* Media Queries */
+@media (max-width: 650px) {
+
+  .cartHome {
+    display: block;
+  }
+
+  .cartContainer {
+    width: 100%;
+  }
+
+  .cartAmount {
+    width: 100%;
+    margin: 10px;
+    padding-bottom: 10px;
+    height: auto;
+  }
+}
+
+/*individual product*/
+
+.itemContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.itemImage {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.itemDesPos {
+  display: flex;
+  margin-left: 30px;
+}
+
+.itemDes {
+  display: block;
+}
+
+.productInfo {
+  background-color: green;
+  width: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.star {
+  height: 40px;
+  width: 150px;
+  margin-left: -18px;
+}
+
+.price {
+  color: goldenrod;
+  font-size: 26px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+/*/* Media Queries */
+@media (max-width: 770px) {
+
+  .itemContainer {
+    display: block;
+  }
+
+  .itemImage {
+    justify-content: center;
+  }
+
+  .itemDesPos {
+    margin-left: 0;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Checkout Page */
+
+.checkHome {
+  display: flex;
+}
+
+.checkForm {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 10px;
+  height: 90vh;
+}
+
+.checkData {
+  display: flex;
+  width: 50%;
+  padding: 5px;
+  justify-content: space-around;
+  background-color: whitesmoke;
+  margin: 10px;
+}
+
+@media (max-width: 700px) {
+  .checkHome {
+    display: block;
+  }
+
+  .checkForm {
+    width: 100%;
+    height: auto;
+  }
+
+  .checkData {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* order details */
+.leftMargin {
+  margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .leftMargin {
+    margin-left: 0;
+  }
+}
+
+
+/* My order page */
+.tdPaid {
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.tdUnpaid {
+  color: black;
+  background-color: yellow;
+  border-radius: 5px;
+  text-align: center;
+}
