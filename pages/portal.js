@@ -3,6 +3,7 @@ import { cartcontext } from "./context";
 import ReactDOM from "react-dom";
 import styles from "../styles/Modal.module.css";
 import { Button } from "reactstrap";
+import Image from "next/image";
 
 export default function Portal({ show, onClose, item }) {
     
@@ -31,7 +32,7 @@ export default function Portal({ show, onClose, item }) {
                 <div className={styles.modalBody}>
 
                     <div className={styles.productImage}>
-                        <img src={item.image} alt={item.name}/>
+                        <Image src={item.image} alt={item.name} layout="fill" />
                      </div>
                      
                      <div className={styles.productDes} style={{ textAlign: "center"}}>

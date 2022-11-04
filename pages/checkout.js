@@ -21,7 +21,9 @@ export default function Checkout() {
         setFormValues({ ...formValues, [name]: value });
     };
 
-    const router = useRouter()
+    const router = useRouter();
+
+    var flag = 0;
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -29,7 +31,7 @@ export default function Checkout() {
         setIsSubmit(true);
         setFormData(formValues);
 
-        if (formValues.name && formValues.phone && formValues.email && formValues.address) {
+        if (formValues.name && formValues.phone && formValues.email && formValues.address && flag === 0) {
             setOrder();
             router.push('/orderDetails')
         }
@@ -40,7 +42,7 @@ export default function Checkout() {
         if (Object.keys(formErrors).length === 0 && isSubmit) {
             //console.log("from check", formValues);
         }
-    }, [formErrors]);
+    }, [formErrors, isSubmit]);
 
     const validate = (values) => {
 
@@ -50,22 +52,28 @@ export default function Checkout() {
 
         if (!values.name) {
             errors.name = "Name is required!";
+            flag=1;
         }
 
         if (!values.email) {
             errors.email = "Email is required!";
+            flag=1;
         } else if (!email_regex.test(values.email)) {
             errors.email = "This is not a valid email format!";
+            flag=1;
         }
 
         if (!values.phone) {
             errors.phone = "Phone is required";
+            flag=1;
         } else if (!phone_regex.test(values.phone)) {
             errors.phone = "This is not a valid phone format!";
+            flag=1;
         }
 
         if (!values.address) {
             errors.address = "Address is required!";
+            flag=1;
         }
 
         return errors;
