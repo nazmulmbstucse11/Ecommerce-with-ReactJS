@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { Navbar, NavbarBrand, Container } from 'reactstrap';
 import { cartcontext } from "./context";
 import React, { useContext } from "react";
+import Image from 'next/image';
 
 export default function Header() {
 
@@ -18,7 +19,7 @@ export default function Header() {
 
                         <NavbarBrand>
                             <Link href="/">
-                                <a><img src="/images/car-logo.png" alt="" width="70px" height="70px" /></a>
+                                <a><Image src="/images/car-logo.png" alt="" width="70px" height="70px" /></a>
                             </Link>
                         </NavbarBrand>
 
@@ -30,7 +31,7 @@ export default function Header() {
 
                         <NavbarBrand>
                             <Link href="/cart">
-                                <a><img src="/images/cart-logo.png" alt="" width="55px" height="55px" />
+                                <a><Image src="/images/cart-logo.png" alt="" width="55px" height="55px" />
                                     <span style={{ verticalAlign: "super" }} >{totalItem === 0 ? "" : totalItem}</span>
                                 </a>
                             </Link>
@@ -38,7 +39,7 @@ export default function Header() {
 
                         <NavbarBrand>
                             <Link href="/myOrders">
-                                <a><img src="/images/order.png" alt="" width="60px" height="60px" /></a>
+                                <a><Image src="/images/order.png" alt="" width="60px" height="60px" /></a>
                             </Link>
                         </NavbarBrand>
 

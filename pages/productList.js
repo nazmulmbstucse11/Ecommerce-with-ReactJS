@@ -4,6 +4,7 @@ import { cartcontext } from "./context";
 const Portal = lazy(() => import("./portal"));
 import Pagination from "./pagination";
 import { Card, CardBody, CardTitle, Button, Row, Col, Container } from 'reactstrap';
+import Image from "next/image";
 
 export default function ProductList({ productData }) {
 
@@ -63,7 +64,7 @@ export default function ProductList({ productData }) {
             </CardTitle>
           </CardBody>
 
-          <img
+          <Image
             onClick={() => viewProductDetails(productItem.id)} style={{ cursor: 'pointer' }}
             alt={productItem.name}
             src={productItem.image}

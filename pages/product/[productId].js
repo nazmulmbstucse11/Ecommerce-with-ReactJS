@@ -49,6 +49,19 @@ export const getProductById = async (productId) => {
     return productData.find(product => product.id === productId);
 }
 
+export const getServerSideProps = async (context) => {
+
+    const productId = context.params.productId;
+    const details = await getProductById(productId);
+
+    return {
+        props: {
+            details
+        },
+    };
+};
+
+/*
 export const getStaticProps = async (context) => {
 
     const productId = context.params.productId;
@@ -72,3 +85,4 @@ export const getStaticPaths = async () => {
 
     return { paths, fallback: false }
 }
+*/

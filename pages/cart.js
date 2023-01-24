@@ -2,6 +2,7 @@ import { cartcontext } from "./context";
 import React, { useContext } from "react";
 import { ListGroup, ListGroupItem, Button, Row, Col, Container } from "reactstrap";
 import { useRouter } from "next/router";
+import Image from "next/image";
 
 export default function Cart() {
 
@@ -23,7 +24,7 @@ export default function Cart() {
                            <Row className="align-items-center">
 
                               <Col className="d-flex justify-content-center">
-                                 <img
+                                 <Image
                                     alt={prod.name}
                                     src={prod.image}
                                     width="150px"
