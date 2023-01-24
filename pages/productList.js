@@ -80,12 +80,12 @@ export default function ProductList({ productData }) {
 
               <Col xs={3}>
                 <Button className="rounded-circle" outline size="sm" onClick={() => { addItem(productItem); setTotal(); }}>
-                  <img
+                  <Image
                     alt={productItem.name}
                     src="/images/cart-logo.png"
                     width="30px"
                     height="30px"
-                    className="rounded-circle"
+                    layout="fixed"
                   />
                 </Button>
               </Col>

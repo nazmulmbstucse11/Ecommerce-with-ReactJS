@@ -32,7 +32,7 @@ export default function Portal({ show, onClose, item }) {
                 <div className={styles.modalBody}>
 
                     <div className={styles.productImage}>
-                        <Image src={item.image} alt={item.name}/>
+                        <Image src={item.image} alt={item.name} layout="fill" />
                      </div>
                      
                      <div className={styles.productDes} style={{ textAlign: "center"}}>
